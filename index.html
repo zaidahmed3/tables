@@ -5,13 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <style>
+        table{
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        th, td{
+            border: 2px solid #ccc;
+            text-align: center;
+        }
+        th{
+        background-color: #f4f4f4;
+        }
+        tr:nth-child(even){
+            background-color: #f9f9f9;
+        }
+    </style>
 </head>
 
 <body>
     <h1>hello world</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cupiditate sint illo possimus dolorem,
-        distinctio similique sit cumque ipsum ex, ipsa voluptas perferendis. Unde facilis ut nesciunt, esse inventore
-        dolor?</p>
+  
+
+    <h1>tables</h1>
+    <div>
+    <table>
+        <caption>student grades</caption>
+        <tr>
+            <th>name</th>
+            <th>subject</th>
+            <th>grade</th>
+        </tr>
+        <tr>
+            <td>ali</td>
+            <td>Science</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>zaid</td>
+            <td>Science</td>
+            <td>B+</td>
+        </tr>
+        <tr>
+            <td>ahmed</td>
+            <td>english</td>
+            <td>A-</td>
+        </tr>
+    </table>
+    </div>
+   
+    
 </body>
 
 </html>
